@@ -166,3 +166,17 @@ To install Valetudo on your Viomi V7, follow the instructions found [here](https
 
 We're currently looking into the possibility of reflashing other brands to Viomi so that they work with Valetudo without
 any additional code.
+
+## Cecotec
+
+Quite a few models are supported in an [unsupported fork](https://github.com/adrigzr/Valetudo) via the Agnoc library:
+- Conga 3090
+- Conga 3490
+- Conga 4090
+- Conga 5090
+
+They are quite easy to root given that they have ssh enabled and a standard root password. You can see the details at the [freeconga initiative](https://gitlab.com/freeconga/stuff/-/blob/master/docs/rooting-conga.md).
+
+The official Valetudo repository doesn't yet have official support for Conga robots, as this is still a work in progress. In particular, there is no specific model detection, which has the drawback of letting the Valetudo UI show capabilities that aren't supported by your model. The [installation instructions](https://gitlab.com/freeconga/stuff/-/blob/master/docs/install-valetudo.md) for this unsupported fork are available.
+
+You are welcome to contribute to this fork and in the process, maybe help get that Conga support upstreamed, but please be aware that the official Valetudo maintainers do not have access to the hardware and that nothing is certain in that aspect. See also [Expectation management](/).
